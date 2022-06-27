@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #232328;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-page {
+    width: 100%;
+    max-width: 1400px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-page h2 {
+    width: 100%;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+
+.item {
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.dont {
+    color: #fff;
+    text-decoration: none;
+}
+
+contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.textb {
+    width: calc(50%-10px);
+    height: 50px;
+    padding: 12px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;/* изменяется пользователем-вертикально*/
+    padding: 12px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/*.btn{
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #3494db;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;*/
+    cursor: pointer;/*показывает руку при наведении*/
+    border: 2px solid #3493db;*/
+}
+
+
+.btn:hover{
+    background-color: transparent;
+    color: #3494db;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro__title{
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.intro__suptitle{
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script',
+        cursive;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.intro_inner{
+
+    width: 100%;
+    max-width: 880px;
+    margin: 0;
+}
+
+
+.intro__title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto 0;
+
+    background-color: #fff;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url(https://psv4.vkuseraudio.net/s/v1/d/JlBQdLpo6L1pLh8otp2VaRxkc-typ9ExIUWPUxuWM4T3X8ZNic6yq889MuhBMxEop1EYZSCuPlFZMSSHeYYU0R1mEbGL5GX3yDJWU4We2ryk4r7heUJdZA/5175978.jpg) center
+        no-repeat;
+}
+
+
+.header{
+    padding-top: 30px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+
+    transition: color .2s linear; /*liner-длительность, подсветка*/
+}
+
+
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav__link:after{/*Подсветка(полосочка)*/
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;/*Подоска не показывается при наводе*/
+
+    background-color: #b845ca;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+}
+
+
+
+
+
+
